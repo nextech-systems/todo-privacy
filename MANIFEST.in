@@ -1,0 +1,5 @@
+include MANIFEST.in
+include README.md
+include *.md
+recursive-include todo_privacy *.css *.csv *.html *.ico *.js *.json *.md *.png *.py *.svg *.txt
+recursive-exclude todo_privacy *.pyc
